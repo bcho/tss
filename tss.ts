@@ -99,5 +99,11 @@ export var runARGV = (args: string[]) => {
     // Skip `node` & script name.
     args = args.slice(2);
 
+    if (args.length < 2) {
+        // TODO Improve interface.
+        console.error('module name and files required.');
+        process.exit(1);
+    }
+
     console.log(compile(args[0], args.slice(1)));
 };
