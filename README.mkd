@@ -1,0 +1,13 @@
+# tss
+
+Compile any text files into a typescript module.
+
+
+## TODO
+
+- [ ] tests
+
+
+## License
+
+[SMPPL](LICENSE)
