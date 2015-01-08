@@ -1,5 +1,5 @@
 {
-  "name": "tss",
+  "name": "tss-compiler",
   "version": "0.0.1",
   "description": "Compile any text files into a typescript module.",
   "main": "./lib/tss.js",
