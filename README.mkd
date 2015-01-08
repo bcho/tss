@@ -1,5 +1,7 @@
 # tss
 
+[![Build Status](https://travis-ci.org/bcho/tss.svg?branch=master)](https://travis-ci.org/bcho/tss) ![Current Version](http://img.shields.io/badge/version-0.0.1-brightgreen.svg)
+
 Compile any text files into a typescript module.
 
 ## Usage
