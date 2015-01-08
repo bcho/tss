@@ -2,11 +2,11 @@
 
 Compile any text files into a typescript module.
 
+## Usage
 
-## TODO
-
-- [ ] tests
-
+```bash
+$ tss html user-profile.html nav.html > html.ts
+```
 
 ## License
 
