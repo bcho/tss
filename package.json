@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/bcho/tss/issues"
   },
-  "homepage": "https://github.com/bcho/tss"
+  "homepage": "https://github.com/bcho/tss",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.4.2",
+    "typescript": "^1.3.0",
+    "typescript-compiler": "^1.3.0-1"
+  }
 }

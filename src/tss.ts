@@ -84,7 +84,7 @@ var parseFile = (path: string) => {
 
 
 // Compile a module from given files.
-var compile = (modName: string, files: string[]) => {
+export var compile = (modName: string, files: string[]) => {
     var variables = files.map(parseFile);
 
     return tmpl.mod({
