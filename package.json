@@ -1,0 +1,29 @@
+{
+  "name": "tss",
+  "version": "0.0.1",
+  "description": "Compile any text files into a typescript module.",
+  "main": "./lib/tss.js",
+  "bin": {
+    "tss": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcho/tss.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "bcho <bcxxxxxx@gmail.com>",
+  "license": {
+    "type": "SMPPL",
+    "url": "https://raw.githubusercontent.com/bcho/tss/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/bcho/tss/issues"
+  },
+  "homepage": "https://github.com/bcho/tss"
+}
