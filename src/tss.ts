@@ -38,7 +38,9 @@ var readFile = (path: string, opts?: any) => {
 
 // Convert snake_case to camelCase.
 var camelStr = (raw: string) => {
-    return raw.replace(/\w_(\w)/, (s) => { return s.toUpperCase(); });
+    return raw.replace(/(\w)_(\w)/g, (_, a, b) => {
+        return a + b.toUpperCase();
+    });
 };
 
 
